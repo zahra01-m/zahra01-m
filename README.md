@@ -12,28 +12,35 @@
 
 </div>
 
----
-
-## 👩‍💻 About Me
-
-```dart
 class ZahraMushtaq extends FlutterDeveloper {
-  final String role     = "Flutter Developer & Web Developer";
-  final String school   = "COMSATS University Islamabad (2026)";
-  final String location = "Vehari, Punjab, Pakistan 🇵🇰";
-  final bool   remote   = true;
 
-  List<String> get techStack => [
-    "Flutter", "Dart", "Firebase", "BLoC", "Riverpod",
-    "REST APIs", "PHP", "MySQL", "Bootstrap 5", "Groq API"
-  ];
+  // 👤 Identity
+  final String name       = "Zahra Mushtaq";
+  final String role       = "Flutter Developer & Web Developer";
+  final String school     = "COMSATS University Islamabad (2026)";
+  final String location   = "Vehari, Punjab, Pakistan 🇵🇰";
+  final bool   remote     = true;
+  final bool   openToWork = true;
 
-  String get currentlyBuilding => "AI-Powered Mobile Apps";
-  String get lookingFor => "Remote Flutter Internships & Freelance";
+  // 🛠️ Tech Stack
+  List<String> get mobile  => ["Flutter", "Dart", "Firebase", "BLoC", "Riverpod"];
+  List<String> get backend => ["PHP", "MySQL", "REST APIs", "Bootstrap 5"];
+  List<String> get ai      => ["Groq API", "AI-Powered Mobile Apps"];
+
+  // 🚀 Currently
+  String get building   => "AI-Powered Mobile Apps with Flutter";
+  String get learning   => "Clean Architecture & Advanced State Management";
+  String get lookingFor => "Remote Flutter Internships & Freelance Projects";
+
+  // 💬 Ask me about
+  String get expertise  => "Flutter UI, Firebase Integration, BLoC Pattern";
+
+  // ⚡ Fun Fact
+  String get funFact    => "I turn chai ☕ into Flutter widgets 🧩";
+
+  @override
+  String toString() => "Building the future, one widget at a time 🚀";
 }
-```
-
----
 
 ## 🚀 Featured Projects
 
