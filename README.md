@@ -11,7 +11,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=zahra01-m&color=54C5F8&style=flat-square&label=Profile+Views)
 
 </div>
-
+---
 class ZahraMushtaq extends FlutterDeveloper {
 
   // 👤 Identity
@@ -41,7 +41,7 @@ class ZahraMushtaq extends FlutterDeveloper {
   @override
   String toString() => "Building the future, one widget at a time 🚀";
 }
-
+---
 ## 🚀 Featured Projects
 
 ### 🤖 [AI Mock Interviewer](https://github.com/zahra01-m/ai-mock-interviewer)
